@@ -1,3 +1,7 @@
+
+![download](https://user-images.githubusercontent.com/49597486/61986386-aef0a200-afc3-11e9-8848-aca01c92ddf2.png)
+
+
 # word-counter
 
 #### A program that gathers both a a word and a sentence from a user, then checks how frequently the word appears in the sentence.
