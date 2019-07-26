@@ -9,21 +9,28 @@ namespace WordCounter
   
     {
          
-        public List<string> wordFinder(string word, string sentence)
+        public int wordFinder(int number, string sentence)
         {
-
-         List <string> answerList = new List<string>();
-            
+                
+         List <int> answerList = new List<int>();
+         
+            number = 0;
             for(int i = 0; i<sentence.Length; i++)
             {
 
-            if(sentence.Contains(word))
+            if(answerList.Contains(number))
             {
-                answerList.Add(word);
+                number+= 1;
             }
+            else
+            {
+                Console.WriteLine("Your sentence doesnt contain that word");
+                break;
+            }
+               
             }
 
-           return answerList;
+           return number;
         }
     }
 }

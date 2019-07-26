@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-
+using WordCounter;
 
 
 
@@ -21,7 +21,12 @@ namespace frotnEnd
             Console.WriteLine("\nEnter a sentence");
             string userSentence = Console.ReadLine();
             Console.WriteLine("Enter a word to find out if it appears in your sentence");
-            string userWord = Console.ReadLine();
+            int userWord = int.Parse(Console.ReadLine());
+
+            Item newItem = new Item();
+            Console.WriteLine(newItem.wordFinder(userWord, userSentence));
+           
+
 
 
 
