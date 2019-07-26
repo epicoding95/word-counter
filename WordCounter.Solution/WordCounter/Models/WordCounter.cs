@@ -21,10 +21,11 @@ namespace frotnEnd
             Console.WriteLine("\nEnter a sentence");
             string userSentence = Console.ReadLine();
             Console.WriteLine("Enter a word to find out if it appears in your sentence");
-            int userWord = int.Parse(Console.ReadLine());
+            string userWord = (Console.ReadLine());
 
             Item newItem = new Item();
-            Console.WriteLine(newItem.wordFinder(userWord, userSentence));
+            Console.WriteLine("your character appears this many times" + " " + newItem.wordFinder(userSentence, userWord));
+            Console.WriteLine();
            
 
 

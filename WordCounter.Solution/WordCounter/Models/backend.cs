@@ -9,18 +9,20 @@ namespace WordCounter
   
     {
          
-        public int wordFinder(int number, string sentence)
+        public int wordFinder(string sentence, string number)
         {
                 
-         List <int> answerList = new List<int>();
+
          
-            number = 0;
+            int numberOfTimes = 0;
+
             for(int i = 0; i<sentence.Length; i++)
             {
-
-            if(answerList.Contains(number))
+                
+            if(sentence[i] == number[i])
             {
-                number+= 1;
+                numberOfTimes += 1;
+               
             }
             else
             {
@@ -30,7 +32,7 @@ namespace WordCounter
                
             }
 
-           return number;
+           return numberOfTimes;
         }
     }
 }
