@@ -11,7 +11,21 @@ namespace frotnEnd
     {
         public static void Main()
         {
-            Console.WriteLine("ererer");
+
+
+            Console.BackgroundColor = ConsoleColor.Black;
+             Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Welcome to Word-Counter!");
+            Console.WriteLine("Press any key to begin!");
+            Console.ReadKey();
+            Console.WriteLine("\nEnter a sentence");
+            string userSentence = Console.ReadLine();
+            Console.WriteLine("Enter a word to find out if it appears in your sentence");
+            string userWord = Console.ReadLine();
+
+
+
+
         }
     }
 }
