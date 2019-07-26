@@ -23,9 +23,9 @@ namespace frotnEnd
             Console.WriteLine("Enter a word to find out if it appears in your sentence");
             string userWord = (Console.ReadLine());
 
-            Item newItem = new Item();
-            Console.WriteLine("your character appears this many times" + " " + newItem.wordFinder(userSentence, userWord));
-            Console.WriteLine();
+            Item newItem = new Item(userSentence,userWord);
+            Console.WriteLine("your character appears this many times" + " " + newItem.wordFinder(userSentence, userWord, ));
+            
            
 
 

@@ -5,34 +5,50 @@ using System.Collections.Generic;
 namespace WordCounter
 {
     public class Item
-
-  
+    
     {
+
+        public string Sentence {get; set;}
+        public string Word {get; set;}
+
+        public Item (string word, string sentence)
+        {
+            Word = word;
+            Sentence = sentence;
+        }
+
+
          
-        public int wordFinder(string sentence, string number)
+        public int wordFinder(string sentence, string word,string[] newWords)
         {
                 
+            List<string> myList = new List<string>();
 
-         
-            int numberOfTimes = 0;
-
+            int Count = 0;
             for(int i = 0; i<sentence.Length; i++)
             {
                 
-            if(sentence[i] == number[i])
-            {
-                numberOfTimes += 1;
-               
+            if(sentence.Contains(word))
+            { 
+              
+               myList.Add(word);
+            
             }
             else
             {
-                Console.WriteLine("Your sentence doesnt contain that word");
-                break;
+                 return 0;
             }
-               
+            
             }
+            return Count;
+        } 
 
-           return numberOfTimes;
+        public string[] splitSentence(string sentence)
+        {
+            string[] newWords = sentence.Split(" ");
+            return newWords;
         }
+
+      
     }
 }
