@@ -24,7 +24,7 @@ namespace frotnEnd
             string userWord = (Console.ReadLine());
 
             Item newItem = new Item(userSentence,userWord );
-            Console.WriteLine("your character appears this many times" + " " + newItem.WordFinder(userSentence,userWord));
+            Console.WriteLine("your word appears this many times" + " " + newItem.WordFinder(userSentence,userWord));
            
 
 
