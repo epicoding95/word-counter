@@ -30,7 +30,7 @@ namespace WordCounter
         public int WordFinder(string sentence, string word)
         {
             
-          string[] newWords= sentence.Split(new char[] { ' ', ',', '.' });
+          string[] newWords= sentence.Split(new char[] { ' ', ',', '.' ,'+', '/', '-'});
             List<string> myList = new List<string>();
 
             int Count = 0;
