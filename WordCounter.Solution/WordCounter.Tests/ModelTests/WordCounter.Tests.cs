@@ -8,21 +8,37 @@ using WordCounter;
 namespace WordCounter.TestTools{
     [TestClass]
     public class ItemTest
-    {
+    { 
         [TestMethod]
-
 
         public void ItemConversion_findWord_word()
         {
-            Item newItem = new Item();
-            List<string> actualValue = newItem.wordFinder("anything", "yes anything");
+            //arrange
+            
+            Item testItem = new Item("yes", "yes yes");
+            ///Ac
+            int actualValue = testItem.WordFinder(testItem.Sentence,testItem.Word);
+            //Assert
+            Assert.AreEqual(actualValue, 2);
 
-            List<string> testValue = newItem.wordFinder("anything", "yes anything");
-            for(int i = 0; i<actualValue.Count; i++)
-            {
-                Assert.AreEqual(actualValue[i],testValue[i]);
-            }
+
+           
+            
         }
+
+    [TestMethod]
+     public void ItemConversion_findSplit_Word()
+        {
+            //arrange
+            
+            Item testItem2 = new Item("yes", "yes,,,+/-,,yes+yes ");
+            ///Ac
+            int actualValue2 = testItem2.WordFinder(testItem2.Sentence,testItem2.Word);
+            //Assert
+            Assert.AreEqual(actualValue2, 3);
+        }
+
+
     }
 }
     
