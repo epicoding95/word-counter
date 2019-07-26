@@ -12,7 +12,7 @@ namespace frotnEnd
         public static void Main()
         {
 
-
+           
             Console.BackgroundColor = ConsoleColor.Black;
              Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Welcome to Word-Counter!");
@@ -23,9 +23,8 @@ namespace frotnEnd
             Console.WriteLine("Enter a word to find out if it appears in your sentence");
             string userWord = (Console.ReadLine());
 
-            Item newItem = new Item(userSentence,userWord);
-            Console.WriteLine("your character appears this many times" + " " + newItem.wordFinder(userSentence, userWord, ));
-            
+            Item newItem = new Item(userSentence,userWord );
+            Console.WriteLine("your character appears this many times" + " " + newItem.WordFinder(userSentence,userWord));
            
 
 

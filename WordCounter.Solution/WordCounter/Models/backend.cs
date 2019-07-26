@@ -18,36 +18,43 @@ namespace WordCounter
         }
 
 
+
+
+        // public string[] SplitSentence(string sentence)
+        // {
+        //     string[] newWords = sentence.Split(' ');
+
+        //     return newWords;
+        // }
          
-        public int wordFinder(string sentence, string word,string[] newWords)
+        public int WordFinder(string sentence, string word)
         {
-                
+            
+          string[] newWords= sentence.Split(' ');
             List<string> myList = new List<string>();
 
             int Count = 0;
-            for(int i = 0; i<sentence.Length; i++)
+            for(int i = 0; i<newWords.Length; i++)
             {
                 
-            if(sentence.Contains(word))
+            if(newWords[i] == word)
             { 
               
-               myList.Add(word);
+             Count += 1;
             
             }
             else
             {
-                 return 0;
+                Count =0;
             }
             
             }
+            Console.WriteLine(Count);
             return Count;
+           
         } 
 
-        public string[] splitSentence(string sentence)
-        {
-            string[] newWords = sentence.Split(" ");
-            return newWords;
-        }
+       
 
       
     }
