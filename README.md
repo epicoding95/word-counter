@@ -16,8 +16,8 @@
 
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **I enjoy going to the beach with friends  ** (userInputAge/2)   | input:  "friends|output: friends occurs 1 time in this sentence|
-| **tThis program only works for whole words, for example if the user input was "I'm walking to the cathedral" and searched to see if "cat" appeared in this sentence it would return 0 times even though "cat" appears in the word "cathedral"** (userInputAge/3)  | input: "Cat"|output: Cat appears 0 times.|
+| **I enjoy going to the beach with friends  **    | input:  "friends|output: friends occurs 1 time in this sentence|
+| **tThis program only works for whole words, for example if the user input was "I'm walking to the cathedral" and searched to see if "cat" appeared in this sentence it would return 0 times even though "cat" appears in the word "cathedral"**   | input: "Cat"|output: Cat appears 0 times.|
 
 
 
