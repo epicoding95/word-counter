@@ -9,3 +9,14 @@
 /Users/Guest/Desktop/word-counter/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Scrabble.AssemblyInfo.cs
 /Users/Guest/Desktop/word-counter/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Scrabble.dll
 /Users/Guest/Desktop/word-counter/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Scrabble.pdb
+/Users/KobysMac/Desktop/word-counter/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/Scrabble.deps.json
+/Users/KobysMac/Desktop/word-counter/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/Scrabble.runtimeconfig.json
+/Users/KobysMac/Desktop/word-counter/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/Scrabble.runtimeconfig.dev.json
+/Users/KobysMac/Desktop/word-counter/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/Scrabble.dll
+/Users/KobysMac/Desktop/word-counter/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/Scrabble.pdb
+/Users/KobysMac/Desktop/word-counter/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Scrabble.csprojAssemblyReference.cache
+/Users/KobysMac/Desktop/word-counter/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Scrabble.csproj.CoreCompileInputs.cache
+/Users/KobysMac/Desktop/word-counter/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Scrabble.AssemblyInfoInputs.cache
+/Users/KobysMac/Desktop/word-counter/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Scrabble.AssemblyInfo.cs
+/Users/KobysMac/Desktop/word-counter/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Scrabble.dll
+/Users/KobysMac/Desktop/word-counter/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Scrabble.pdb

@@ -17,21 +17,11 @@ namespace WordCounter
             Sentence = sentence;
         }
 
-
-
-
-        // public string[] SplitSentence(string sentence)
-        // {
-        //     string[] newWords = sentence.Split(' ');
-
-        //     return newWords;
-        // }
-         
         public int WordFinder(string sentence, string word)
         {
             
           string[] newWords= sentence.Split(new char[] { ' ', ',', '.' ,'+', '/', '-'});
-            List<string> myList = new List<string>();
+           
 
             int Count = 0;
             for(int i = 0; i<newWords.Length; i++)
@@ -49,9 +39,8 @@ namespace WordCounter
             }
             
             }
-            // Console.WriteLine(Count);
-            return Count;
            
+            return Count;
         } 
 
        

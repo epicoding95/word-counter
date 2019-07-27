@@ -15,8 +15,8 @@ namespace frotnEnd
            
             Console.BackgroundColor = ConsoleColor.Black;
              Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Welcome to Word-Counter!");
-            Console.WriteLine("Press any key to begin!");
+            Console.WriteLine("\nWelcome to Word-Counter!");
+            Console.WriteLine("\nPress any key to begin!");
             Console.ReadKey();
             Console.WriteLine("\nEnter a sentence");
             string userSentence = Console.ReadLine();
@@ -24,7 +24,18 @@ namespace frotnEnd
             string userWord = (Console.ReadLine());
 
             Item newItem = new Item(userSentence,userWord );
-            Console.WriteLine("your word appears this many times" + " " + newItem.WordFinder(userSentence,userWord));
+            Console.WriteLine(@"your word " +  userWord +  " appears "+ newItem.WordFinder(userSentence,userWord) + " time(s)" + "");
+
+            Console.WriteLine("Would you like to write any more sentences or be done?" , "yes/no");
+            string answerAgain = Console.ReadLine();
+
+            if (answerAgain == "yes")
+            {
+                Main();
+            }
+            else{
+                Console.WriteLine("goodbye");
+            }
            
 
 
