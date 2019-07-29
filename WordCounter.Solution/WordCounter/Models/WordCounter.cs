@@ -26,7 +26,7 @@ namespace frotnEnd
             Item newItem = new Item(userSentence,userWord );
             Console.WriteLine(@"your word " +  userWord +  " appears "+ newItem.WordFinder(userSentence,userWord) + " time(s)" + "");
 
-            Console.WriteLine("Would you like to write any more sentences or be done?" , "yes/no");
+            Console.WriteLine("Would you like to write any more sentences or be done? ---yes/no?"); 
             string answerAgain = Console.ReadLine();
 
             if (answerAgain == "yes")
