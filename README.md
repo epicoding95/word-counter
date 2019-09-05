@@ -27,7 +27,7 @@
 
 
 *  Go to my gethub page, [Web page](https://github.com/) then search for epicoding95.
-* search for the repository "word-counter"
+* Search for the repository "word-counter"
 * Clone this repository to your desktop, navigate into the WordCounter file and run "dotnet run"
 
 ## Known Bugs
